@@ -11,8 +11,10 @@ function displayDate(){
 const enterBtn=document.getElementById('enter');
 
 enterBtn.addEventListener('click' ,()=>{
-    const item=document.getElementById('item');
-    createItem(item);
+    if(item.value!=""){
+        const item=document.getElementById('item');
+        createItem(item);
+    }
 })
 
 function createItem(item){
