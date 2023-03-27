@@ -123,7 +123,7 @@ textarea:focus {
 }
 .edit-controller{
     display: flex;
-    width: 5vw;
+    width: 5.5vw;
     align-items: center;
     height: 40px;
     gap: 10px;
