@@ -1,5 +1,50 @@
 @media screen and (max-width:991px) {
     .container{
-        
+        width: 60vw;
+    }
+    .item{
+        width: 60vw;
+    }
+    .task{
+        width: 60vw;
+    }
+    .input-header{
+        width: 60vw;
+    }
+    textarea{
+        width: 100vw;
+        gap: 0px;
+        margin: 0px;
+    }
+    .input-controller{
+        width: 60vw;
+    }
+    .edit-controller{
+        width: 10vw;
+    }
+}
+@media screen and (max-width:767px){
+    #item{
+        width: 50vw;
+    }
+    .container{
+        width: 60vw;
+    }
+    .item{
+        width: 60vw;
+    }
+    .task{
+        width: 60vw;
+    }
+    .input-header{
+        width: 60vw;
+    }
+    textarea{
+        width: 100vw;
+        gap: 0px;
+        margin: 0px;
+    }
+    .input-controller{
+        width: 60vw;
     }
 }
