@@ -89,7 +89,10 @@ body {
     font-size: large;
     font-family: 'Shadows Into Light', cursive;
 }
-
+#enter:hover{
+    box-shadow: 0 0 4px white;
+    transition: 0.15s ease-out;
+}
 .input-controller{
     display: flex;
     justify-content: center;
