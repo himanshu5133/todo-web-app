@@ -13,8 +13,9 @@
     }
     textarea{
         width: 100vw;
-        gap: 0px;
-        margin: 0px;
+        /* gap: 0px; */
+        /* margin: 0px; */
+        padding-left: 10px;
     }
     .input-controller{
         width: 60vw;
@@ -31,21 +32,21 @@
         width: 80vw;
     }
     .item{
-        width: 65vw;
+        width: 75vw;
     }
     .task{
-        width: 70vw;
+        width: 75vw;
     }
     .input-header{
-        width: 65vw;
+        width: 75vw;
     }
     textarea{
-        width: 70vw;
-        gap: 0px;
-        margin: 0px;
+        width: 75vw;
+        /* gap: 0px; */
+        /* margin: 0px; */
     }
     .input-controller{
-        width: 70vw;
+        width: 75vw;
     }
     .edit-controller{
         width:21vw ;
