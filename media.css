@@ -28,23 +28,32 @@
         width: 50vw;
     }
     .container{
-        width: 60vw;
+        width: 80vw;
     }
     .item{
-        width: 60vw;
+        width: 65vw;
     }
     .task{
-        width: 60vw;
+        width: 70vw;
     }
     .input-header{
-        width: 60vw;
+        width: 65vw;
     }
     textarea{
-        width: 100vw;
+        width: 70vw;
         gap: 0px;
         margin: 0px;
     }
     .input-controller{
-        width: 60vw;
+        width: 70vw;
     }
+    .edit-controller{
+        width:21vw ;
+        margin: 5px;
+    }
+    .deleteBtn,.editBtn{
+        gap: 4px;
+        font-size: 1.2rem;
+    }
+
 }
