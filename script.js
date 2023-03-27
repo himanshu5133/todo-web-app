@@ -8,6 +8,8 @@ function displayDate(){
     document.getElementById('date').innerHTML=date[1]+" "+date[2]+" "+date[3];
 }
 
+// Enter button
+
 const enterBtn=document.getElementById('enter');
 
 enterBtn.addEventListener('click' ,()=>{
@@ -16,7 +18,14 @@ enterBtn.addEventListener('click' ,()=>{
         createItem(item);
     }
 })
-
+const input=document.getElementById('item');
+input.addEventListener('keyup',(event)=>{
+    event.preventDefault();
+    if(event.key==='Enter'){
+        enterBtn.click();
+    }
+})
+/////////////////////////////////
 function createItem(item){
     itemsArray.push(item.value)
     localStorage.setItem("items",JSON.stringify(itemsArray));
