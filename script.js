@@ -14,7 +14,7 @@ const enterBtn=document.getElementById('enter');
 
 enterBtn.addEventListener('click' ,()=>{
     if(item.value!=""){
-        const item=document.getElementById('item');
+        // const item=document.getElementById('item');
         createItem(item);
     }
 })
